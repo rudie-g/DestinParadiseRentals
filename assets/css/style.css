@@ -19,7 +19,7 @@ body {
 }
 
 #header {
-    background-image: url(../images/background2.jpg); 
+    background-image: url(../images/backgroundthree.jpg); 
     background-attachment:scroll;
     background-size: cover;
     background-repeat:no-repeat;
@@ -55,7 +55,7 @@ body {
     max-width: 40%;
 }
 
-#serving {
+#padding {
     font-family: 'Yellowtail', cursive;
     font-size: 1.25vh;
     padding: 20%;
@@ -66,9 +66,6 @@ body {
     /* margin-top: 5%; */
 }
 
-#serving h2 {
-    margin: 0;
-}
 
 #info {
     background: var(--lavender-blush);
@@ -92,11 +89,21 @@ body {
 
 #fluff {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20% 0%;
     width: 100%;
     overflow: hidden;
     background-color: var(--purple);
+    align-items: center;
+}
+
+.serving {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5vh;
+    padding: 10% 0%;
+    white-space: nowrap;
+    text-align: start;
 }
 
 #fluff-img {
